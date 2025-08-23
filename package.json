@@ -1,0 +1,49 @@
+{
+  "name": "expo-wake-lock",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-wake-lock",
+    "ExpoWakeLock"
+  ],
+  "repository": "https://github.com/supersuryaansh/expo-wake-lock",
+  "bugs": {
+    "url": "https://github.com/supersuryaansh/expo-wake-lock/issues"
+  },
+  "expo": {
+    "plugins": ["expo-wake-lock/plugin"]
+  },
+  "author": "supersuryaansh (https://github.com/supersuryaansh)",
+  "license": "MIT",
+  "homepage": "https://github.com/supersuryaansh/expo-wake-lock#readme",
+  "dependencies": {
+    "@expo/config-plugins": "^10.1.2",
+    "expo-modules-core": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.0",
+    "expo": "~53.0.0",
+    "expo-module-scripts": "^4.1.10",
+    "react-native": "0.79.1"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
