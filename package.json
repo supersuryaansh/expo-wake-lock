@@ -1,6 +1,6 @@
 {
   "name": "expo-wake-lock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My new module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -15,6 +15,15 @@
     "open:ios": "xed example/ios",
     "open:android": "open -a \"Android Studio\" example/android"
   },
+  "files": [
+    "build",
+    "src",
+    "plugin.js",
+    "expo-module.config.json",
+    "package.json",
+    "README.md",
+    "plugin"
+  ],
   "keywords": [
     "react-native",
     "expo",
