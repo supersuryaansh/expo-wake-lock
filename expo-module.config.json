@@ -1,8 +1,5 @@
 {
-  "platforms": ["apple", "android", "web"],
-  "apple": {
-    "modules": ["ExpoWakeLockModule"]
-  },
+  "platforms": ["android"],
   "android": {
     "modules": ["expo.modules.wakelock.ExpoWakeLockModule"]
   }
